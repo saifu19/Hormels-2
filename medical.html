@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Muse">
+<meta name="keywords" content="Muse">
+<meta name="author" content="Muse">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Hormel</title>
+<link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<!-- Muse CSS -->
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/vendor/flatpickr/dist/flatpickr.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/vendor/plyr/dist/plyr.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/vendor/choices-master/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/vendor/dropzone/dist/min/dropzone.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/vendor/simplebar/dist/simplebar.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="styles.css" rel="stylesheet">
+
+<script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=shaikxp3lshncb0ptavfkw" async="true"></script>
+</head>
+<body>
+    <div class="text-center header-container">
+        <div class="header-bg"></div>
+        <div class="header-wrapper w-100 d-flex justify-content-center">
+            <div class="header container py-5">
+                <img src="images/hormel-logo.png" style="width: 120px;">
+                <h2 class="display-3 mt-3" style="color: #46717a;">Medical and prescription drug coverage</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-md-5">
+        <!-- Header -->
+        <div>
+            <p>
+                You have two health plan options so you can select the option that meets the needs of you and your family. The plan comparison chart in this booklet contains each health plan option’s deductibles, and out-of-pocket maximums. All health plan options feature the Blue Cross Blue Shield (BCBS) network of providers. When you use these in-network providers, they agree to charge pre-negotiated, discounted fees for their services and submit claims directly to BCBS for processing.
+            </p>
+        </div>
+
+        <!-- Blue & Yellow -->
+        <div class="row align-items-strech mt-md-5 mt-3 gy-3">
+            <div class="col-md-6">
+                <div class="medical-div p-md-5 p-3" style="background-color: #F0FCFF;">
+                    <h3 class="display-8">Healthy Savings Plan</h3>
+                    <p>
+                        The Healthy Savings Plan Option is a high deductible health plan. You will pay 100% of medical and prescription costs until your deductible has been met. The deductible can be met with any combination of medical and prescription drug spending. Once the deductible has been met, then co-insurance will apply until you’ve met your out-ofpocket maximum. 
+                    </p>
+                    <p>
+                        A Health Savings Account (HSA) is available to you with this health plan. Additionally, you can contribute to a Limited Purpose Flexible Spending Account (LPFSA). This plan also includes a hospital indemnity plan to help cover expenses if admitted to the hospital.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="medical-div p-md-5 p-3" style="background-color: #FFFAF4;">
+                    <h3 class="display-8">Traditional Plan</h3>
+                    <p>
+                        The Traditional Plan Option is a lower deductible health plan. Medical and prescription drug spending are separated under this plan. For the medical coverage, once the deductible has been met, co-insurance will apply until you’ve met your out-of-pocket maximum.
+                    </p>
+                    <p>
+                        Prescription drug coverage has immediate co-insurance. The co-insurance rate you pay depends upon the drug prescribed. You may contribute to a health care Flexible Spending Account (FSA).
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plan Structure (Half pics ouut) -->
+        <div id="planStructure" class="mt-md-5 mt-3 text-center p-md-5 p-3 fw-bold">
+            <div id="planStructureWrapper"></div>
+            <h3 class="display-5">Plan Structure Update</h3>
+            <p class="mx-auto" style="width: 70%;">
+                2023 will offer a simplification of the plan options offered under both healthcare plans and the dental and vision bundle. <br> The plans now offer:
+            </p>
+            <div class="row">
+                <div class="col-md-4 d-flex d-md-block align-items-center justify-content-between">
+                    <div class="mr-4 mr-md-0 plan-div">
+                        <h3 class="display-8" style="color: #46717A;">01</h3>
+                        <p>Employee Only</p>
+                    </div>
+                    <img class="plan-img" src="images/employee2.png">
+                </div>
+                <div class="col-md-4 d-flex d-md-block align-items-center justify-content-between">
+                    <div class="mr-4 mr-md-0 plan-div">
+                        <h3 class="display-8" style="color: #46717A;">02</h3>
+                        <p>Employee and Child(ren)</p>
+                    </div>
+                    <img class="plan-img" src="images/emp&children.png">
+                </div>
+                <div class="col-md-4 d-flex d-md-block align-items-center justify-content-between">
+                    <div class="mr-4 mr-md-0 plan-div">
+                        <h3 class="display-8" style="color: #46717A;">03</h3>
+                        <p>Family</p>
+                    </div>
+                    <img class="plan-img" src="images/family.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- After Text -->
+        <div class="mt-3 mt-md-0">
+            <p class="mx-auto px-3 px-md-0 w-md-50">
+                Anyone currently enrolled in the Employee and Spouse option or the Employee and Domestic Partner option will be automatically enrolled the Family option or Domestic Partner Family option. Please be sure to review your dependents you wish to have on either of these coverages for 2023 to make sure they are listed as being covered by the plans.
+            </p>
+        </div>
+
+        <!-- Plan Comparison Table -->
+        <div class="mt-md-5 mt-3">
+            <h3 class="display-5 text-center" style="color: #46717A;">Plan Comparison chart</h3>
+            <p class="d-block d-md-none text-center">*In Network Plan Comparisons</p>
+            <div class="main-table mt-md-5 mt-3">
+                <div class="row g-0 table-row align-items-strech">
+                    <div class="col-4 p-md-4 px-2 py-4 table-col d-flex align-items-center">
+                        <p class="mb-0 d-none d-md-block">
+                            *In Network Plan Comparisons
+                        </p>
+                    </div>
+                    <div class="col-4 p-md-4 px-2 py-4 table-col r2 text-center mb-0">
+                        <p class="mb-0 fw-bold fs-1r">Healthy Savings Plan</p>
+                    </div>
+                    <div class="col-4 p-md-4 px-2 py-4 table-col r-12 text-center mb-0">
+                        <p class="mb-0 fw-bold fs-1r">Traditional Plan</p>
+                    </div>
+                </div>
+                <div class="row g-0 table-row fw-bold text-center">
+                    <div class="col-4 table-col p-md-4 px-2 py-4">
+                        <p class="mb-0">Preventive Care</p>
+                    </div>
+                    <div class="col-8 table-col p-md-4 px-2 py-4">
+                        <p class="mb-0">All plans pay 100%; employee pays $0.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-table mt-3">
+                <p class="fw-bold pl-3">Deductible</p>
+                <div class="row g-0 table-row text-center align-items-strech">
+                    <div class="col-4 table-col text-left">
+                        <img src="images/employee.png" class="d-md-inline mr-md-4 mb-3 mb-md-0" style="width: 50px;">
+                        <p class="fs-1r d-md-inline">Single Deductible</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r2 table-col fw-bold">
+                        <p class="fs-1r mb-0">$2,000</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r-12 table-col fw-bold">
+                        <p class="fs-1r mb-0">$800</p>
+                    </div>
+                </div>
+                <div class="row g-0 table-row text-center align-items-strech">
+                    <div class="col-4 table-col text-left">
+                        <img src="images/family.png" class="d-md-inline mr-md-4 mb-3 mb-md-0" style="width: 50px;">
+                        <p class="fs-1r d-md-inline">Family Deductible</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r2 table-col fw-bold">
+                        <div>
+                            <img src="images/family.png" class="d-md-inline mr-md-3 mx-auto" style="width: 50px;">
+                            <p class="fs-1r mb-0 d-md-inline">= $4,000</p>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r-12 table-col fw-bold">
+                        <div>
+                            <div class="d-flex d-md-inline align-items-center">
+                                <div class="d-md-inline">
+                                    <small class="mb-0 bg-dark text-white" style="border-radius: 14px; padding: 2px; margin-right: 
+                                    -20px; font-size: 0.6rem; position: relative; z-index: 2;">$800</small>
+                                </div>
+                                <img src="images/family.png" class="d-md-inline" style="width: 50px;">
+                                <div class="d-md-inline">
+                                    <small class="mb-0 bg-dark text-white" style="border-radius: 14px; padding: 2px; margin-left: -20px; font-size: 0.6rem; position: relative; z-index: 2;">$800</small>
+                                </div>
+                            </div>
+                            <p class="fs-1r mb-0 d-md-inline"> &nbsp;= $1600</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-table mt-3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-4 py-4">
+                        <p class="fw-bold mb-0 table-col">OOP (Out of Pocket) Maximum</p>
+                    </div>
+                    <div class="col-8 py-4">
+                        <p class="fw-bold mb-0 table-col text-center">
+                            All plans pay 100%; employee pays $0.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-0 table-row text-center align-items-strech">
+                    <div class="col-4 table-col text-left">
+                        <img src="images/employee.png" class="d-md-inline mr-md-4 mb-3 mb-md-0" style="width: 50px;">
+                        <p class="d-md-inline fs-1r">Single Medical OOP</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r2 table-col fw-bold">
+                        <p class="mb-0 fs-1r">$4,500</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r-12 table-col fw-bold">
+                        <p class="mb-0 fs-1r">$3,800</p>
+                    </div>
+                </div>
+                <div class="row g-0 table-row text-center align-items-strech">
+                    <div class="col-4 table-col text-left d-flex align-items-center">
+                        <div>
+                            <img src="images/family.png" class="d-md-inline mr-md-4 mb-3 mb-md-0" style="width: 50px;">
+                            <p class="d-md-inline fs-1r">Family Medical OOP</p>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r2 table-col fw-bold">
+                        <div>
+                            <img src="images/employee.png" class="d-md-inline" style="width: 50px;">
+                            <p class="mb-md-0 fs-1r mr-md-4 mb-3 d-md-inline">= $7,900</p>
+                            <p class="mb-md-0 fs-1r mr-md-4 mb-3 d-md-inline">or</p>
+                            <img src="images/family.png" class="d-md-inline" style="width: 50px;">
+                            <p class="mb-md-0 fs-1r mr-md-4 mb-0 d-md-inline">= $9,000</p>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r-12 table-col fw-bold">
+                        <div>
+                            <div class="d-flex d-md-inline align-items-center">
+                                <div class="d-md-inline">
+                                    <small class="mb-0 d-inline bg-dark text-white" style="border-radius: 14px; padding: 2px; margin-right: -20px; font-size: 0.6rem; position: relative; z-index: 2;">$3,800</small>
+                                </div>
+                                <img src="images/family.png" class="d-inline" style="width: 50px;">
+                                <div class="d-md-inline">
+                                    <small class="mb-0 d-inline bg-dark text-white" style="border-radius: 14px; padding: 2px; margin-left: -20px; font-size: 0.6rem; position: relative; z-index: 2;">$3,800</small>
+                                </div>
+                            </div>
+                            <p class="mb-0 fs-1r d-inline"> &nbsp;= $7,600**</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 table-row text-center align-items-strech mb-5">
+                    <div class="col-4">
+                        <div class="table-col text-left">
+                            <img src="images/employee.png" class="d-md-inline mr-md-4 mb-3" style="width: 50px;">
+                            <p class="d-md-inline fs-1r">Single Drug OOP</p>
+                        </div>
+                        <div class="table-col text-left">
+                            <img src="images/family.png" class="d-md-inline mr-md-4 mb-3" style="width: 50px;">
+                            <p class="d-md-inline fs-1r">Family Drug OOP</p>
+                        </div>
+                    </div>
+                    <div class="col-4 r2 fw-bold d-flex table-col align-items-center justify-content-center">
+                        <p class="fs-1r">Included in Medical OOP</p>
+                    </div>
+                    <div class="col-4 r-12 fw-bold">
+                        <div class="table-row mx-0 px-0 h-50 d-flex align-items-center justify-content-center">
+                            <p class="mb-0 fs-1r">$2,500</p>
+                        </div>
+                        <div class="px-0 mx-0 h-50 d-flex align-items-center justify-content-center">
+                            <p class="mb-0 fs-1r">$5,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-table mt-3">
+                <div class="col-4 py-4">
+                    <p class="fw-bold mb-0 pl-3">Copay/Coinsurance</p>
+                </div>
+                <div class="row g-0 table-row text-center align-items-strech">
+                    <div class="col-4">
+                        <div class="table-row table-col d-flex align-items-center h-33">
+                            <div class="text-left">
+                                <img src="images/drug.png" class="d-md-inline mr-md-4 mb-3 mb-md-0" style="width: 40px;">
+                                <p class="d-md-inline fs-1r">Prescription Drug</p>
+                            </div>
+                        </div>
+                        <div class="table-row table-col d-flex align-items-center h-33">
+                            <div class="text-left">
+                                <img src="images/emergency.png" class="d-md-inline mr-md-4 mb-3 mb-md-0" style="width: 40px;">
+                                <p class="d-md-inline fs-1r">Emergency Room</p>
+                            </div>
+                        </div>
+                        <div class="table-col d-flex align-items-center h-33">
+                            <div class="text-left">
+                                <img src="images/non-preventive.png" class="d-md-md-inline mr-md-4 mb-3 mb-md-0" style="width: 40px;">
+                                <p class="d-md-inline fs-1r">Non-Preventive Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 r2 table-col fw-bold d-flex align-items-center justify-content-center d-md-block">
+                        <p class="d-none d-md-block">After deductible</p>
+                        <img src="images/after-deductible.png">
+                    </div>
+                    <div class="col-4 r-12">
+                        <div class="table-row d-flex align-items-end py-3 py-md-0 h-md-33 px-4 fw-bold" style="position: relative;">
+                            <div class="text-center w-100 min-div" style="background-color:#F26827; position: absolute; top: 0; left: 0;">
+                                <p class="text-white mb-0">
+                                    $5 Minimum
+                                </p>
+                            </div>
+                            <div class="row align-items-end mt-md-0 pay-row">
+                                <div class="col-md-3">
+                                    <p class="mb-1 fs-1r" style="color: #F26827;">you pay</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="mb-1 fs-1r">Generic</p>
+                                    <p class="mb-1 fs-1r" style="color: #F26827;">10%</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="mb-1 fs-1r">Brand</p>
+                                    <p class="mb-1 fs-1r" style="color: #F26827;">20%</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="mb-1 fs-1r">Non-Form</p>
+                                    <p class="mb-1 fs-1r" style="color: #F26827;">30%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-row d-flex py-3 py-md-0 h-md-33 align-items-center px-md-4 px-2">
+                            <div class="w-100">
+                                <small>After deductible + <span class="fw-bold" style="color: #F26827;">$100</span> copay,</small>
+                                <div class="row g-0 text-white align-items-center capsule">
+                                    <div class="col-md-8 d-flex align-items-center justify-content-center text-center">
+                                        <div class="d-inline mr-3 mr-md-0">
+                                            <p class="fs-1r d-md-inline mb-0 fw-md-bold">plan</p>
+                                            <p class="fs-1r d-md-inline mb-0 fw-md-bold">pays</p>
+                                        </div>
+                                        <p class="fs-1r d-inline mb-0 fw-bold">&nbsp;80%</p>
+                                    </div>
+                                    <div class="col-md-4 d-flex align-items-center justify-content-center text-center" style="background-color: #F26827;">
+                                        <div class="d-inline mr-3">
+                                            <p class="fs-1r d-md-inline lh-1 my-0">you</p>
+                                            <p class="fs-1r d-md-inline lh-1 my-0">pay</p>
+                                        </div>
+                                        <p class="fs-1r d-inline mb-0 fw-bold">20%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center py-3 h-md-33 py-md-0 px-md-4 px-2">
+                            <div class="w-100">
+                                <small>After deductible</small>
+                                <div class="row g-0 text-white align-items-center capsule">
+                                    <div class="col-md-8 d-flex align-items-center justify-content-center text-center">
+                                        <div class="d-inline mr-3 mr-md-0">
+                                            <p class="fs-1r d-md-inline mb-0 fw-md-bold">plan</p>
+                                            <p class="fs-1r d-md-inline mb-0 fw-md-bold">pays</p>
+                                        </div>
+                                        <p class="fs-1r d-inline mb-0 fw-bold">&nbsp;80%</p>
+                                    </div>
+                                    <div class="col-md-4 d-flex align-items-center justify-content-center text-center" style="background-color: #F26827;">
+                                        <div class="d-inline mr-3">
+                                            <p class="fs-1r d-md-inline lh-1 my-0">you</p>
+                                            <p class="fs-1r d-md-inline lh-1 my-0">pay</p>
+                                        </div>
+                                        <p class="fs-1r d-inline mb-0 fw-bold">20%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row table-row g-0 text-center align-items-strech">
+                    <div class="col-4 table-col text-left">
+                        <img src="images/hospital.png" class="d-md-inline mr-md-4 mb-3" style="width: 50px;">
+                        <p class="fs-1r d-md-inline">Hospital Indemnity</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r2 table-col fw-bold">
+                        <p class="fs-1r mb-0">Included</p>
+                    </div>
+                    <div class="col-4 d-flex align-items-center justify-content-center r-12 table-col fw-bold">
+                        <p class="fs-1r mb-0">Not Included</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 px-3 px-md-0">
+                <small class="mb-0">
+                    *Out of network care may have higher co-insurance and out-of-smallocket maximums.
+                </small>
+                <br>
+                <small class="mb-0">
+                    **The deductible for Employee plus any dependents is $800 per person capped at $1,600. The $1,600 must be met by 2 people.
+                </small>
+            </div>
+        </div>
+
+        <!-- Hospital Indemnity -->
+        <div class="mt-md-5 mt-4" style="background-color: #F4F3F9;">
+            <div class="row g-0 p-md-5 p-4">
+                <div class="col-md-4 text-md-center">
+                    <img src="images/hospital.png" width="100px">
+                </div>
+                <div class="col-md-8">
+                    <h3 class="display-8">
+                        What is Hospital Indemnity?
+                    </h3>
+                    <p class="mb-0">
+                        Helps covered employees and their families cope with the financial impacts of a hospitalization. You can receive benefits when you’re admitted to the hospital for a covered accident, illness, or childbirth. The money is paid directly to you - not the hospital or care provider. The money can also help you pay the out-of-pocket expenses your medical plan may not cover, such as co-insurance, co-pays, and deductibles. You can submit claims to Unum at www.unum.com/claims.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blue Cross blue & yellow -->
+        <div class="mt-5">
+            <h3 class="display-5 text-center" style="color: #46717A;">Blue cross blue shield</h3>
+            <div class="row align-items-strech mt-md-5 mt-3 gy-3">
+                <div class="col-md-6">
+                    <div class="medical-div p-md-5 p-3" style="background-color: #F0FCFF;">
+                        <h3 class="display-8">Medical and Prescription drug Cards</h3>
+                        <p>
+                            Blue Cross Blue Shield of Minnesota (medical) and Prime Therapeutics (prescription drug) are the claims administrators for your healthcare coverage.
+                        </p>
+                        <p>
+                            You will receive one card from Blue Cross Blue Shield that will be for both medical and prescription drug. You will receive a card for each of your verified dependents on coverage.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="medical-div p-md-5 p-3" style="background-color: #FFFAF4;">
+                        <h3 class="display-8">Blue Cross Blue Shield's Online Portal</h3>
+                        <p>
+                            Once you’ve received your medical card from Blue Cross Blue Shield, you may then visit www.bluecrossmn.com/hormelfoods to register and access the many tools available online. Blue Cross Blue Shield’s online portal provides many tools and resources for you to help you manage your health and health care. In addition to viewing your explanation of benefits for any claims processed and a summary of your claims activity, you’ll also have access to online tools such as:
+                        </p>
+                        <ul>
+                            <li>Find a doctor</li>
+                            <li>Care Cost Estimator(ex. Estimating Costs of Procedures)</li>
+                            <li>Information on Preventive Care</li>
+                            <li>Interactive health care tool</li>
+                            <li>Quitting Tobacco Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Omada -->
+        <div class="mt-md-5 mt-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mb-3 blue-cross-img" src="images/protection.png">
+                </div>
+                <div class="col-md-9">
+                    <h3 class="display-8 mb-1">
+                        Identity Protection Services
+                    </h3>
+                    <p class="mb-3">
+                        Blue Cross Blue Shield offers identity/credit protection services to all eligible Blue Cross members on an opt-in basis at no cost. It’s a partnership with Experian that will include:
+                    </p>
+                    <ul>
+                        <li>Credit reports and monitoring – watch for activity that may affect your credit</li>
+                        <li>Identity repair – help to address fraud</li>
+                        <li>Identity theft insurance – repays stolen funds</li>
+                        <li>Internet watch – find trading or selling of your minor’s personal information</li>
+                    </ul>
+                    <p>
+                        Renew every 12 months: You’ll need to renew your service every 12 months. You’ll get an email from Experian when it’s time to renew. To enroll, visit <a style="color: #F26827;" href="https://www.bluecrossmn.com/hormelfoods">https://www.bluecrossmn.com/hormelfoods</a> and click on the link under Identity Protection Services. There are separate enrollments for adults and children under the age of 18.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-md-5 mt-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mb-3 blue-cross-img" src="images/omada.png">
+                </div>
+                <div class="col-md-9">
+                    <img class="mb-3 blue-cross-img" src="images/omada - logo.png">
+                    <h3 class="display-8 mb-1">
+                        What is OMADA?
+                    </h3>
+                    <p class="mb-3">
+                        It’s an online program that coordinates everything you need to adopt and maintain healthier habits. When you join, you get:
+                    </p>
+                    <ul>
+                        <li>A professional health coach to keep you on track.</li>
+                        <li>A wireless smart scale to monitor your progress.</li>
+                        <li>Weekly online lessons, fun games and quizzes to educate you.</li>
+                        <li>A peer group of participants to support you throughout the core 16-week program.</li>
+                    </ul>
+                    <p>
+                        If you’re eligible, Hormel Foods will cover the entire cost. To find out if you are eligible of for more information go to <a style="color: #F26827;" href="www.omadahealth.com/hormel.">www.omadahealth.com/hormel</a>.
+                    </p>
+                    <h3 class="display-8 mt-3">Who is Eligible</h3>
+                    <p>The program is available to those who meet both of the following:</p>
+                    <ul>
+                        <li>
+                            Employees and their adult family members who are eligible and enrolled in one of the Hormel Foods Plan Options through Blue Cross®and Blue Shield®of Minnesota.
+                        </li>
+                        <li>At risk for type 2 diabetes or heart disease</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prescription Drug -->
+        <div class="mt-5">
+            <h3 class="display-5 text-center" style="color: #46717A;">
+                Prescription drug
+            </h3>
+            <p class="w-md-70 px-3 px-md-0 text-md-center mx-auto mt-md-4 mb-5">
+                The prescription drug claims administrated by Prime Therapeutics. Your cost for prescription drugs will depend on what type of prescription is prescribed: generic, formulary brand or non-formulary brand. Copayments for the difference between the cost of a brand name product and its generic equivalent do not count toward the out-of-pocket maximum.
+            </p>
+            <div class="r-12 p-md-5 p-3">
+                <h3 class="display-5 text-center mb-md-5 mb-3">Traditional Plan</h3>
+                <row class="row mt-md-5 mt-3 fw-bold text-center">
+                    <div class="col-md-4">
+                        <div class="b-bottom b-right">
+                            <div class="traditionalPara1 mb-3">
+                                <p style="color: #46717A;">
+                                    No deductible for prescription drug. Generic prescription on formulary
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img src="images/chart1.png" class="img-fluid chart-img1">
+                            </div>
+                            <p class="mt-3 text-center" style="color: #46717a;">
+                                Out-of-Pocket Max <br> 100%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="b-bottom b-right">
+                            <div class="traditionalPara2 mb-3">
+                                <p style="color: #46717A;">
+                                    Brand name prescription on formulary
+                                </p>
+                            </div>
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <img src="images/chart2.png" class="img-fluid chart-img2">
+                            </div>
+                            <p class="mt-3 text-center" style="color: #46717a;">
+                                Out-of-Pocket Max <br> 100%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="b-bottom border-0">
+                            <div class="traditionalPara3 mb-3">
+                                <p style="color: #46717A;">
+                                    Generic or Brand name prescription NOT on formulary
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img src="images/chart3.png" class="img-fluid chart-img3">
+                            </div>
+                            <p class="mt-3 text-center" style="color: #46717a;">
+                                Out-of-Pocket Max <br> 100%
+                            </p>
+                        </div>
+                    </div>
+                </row>
+            </div>
+            <div class="r2 p-md-5 p-3">
+                <h3 class="display-5 text-center">Healthy Savings Plan</h3>
+                <p class="text-center w-md-50 mx-auto fw-bold"  style="color: #46717A;">
+                    Plan deductible must be met (medical plus prescription drug expenses) before co-insurance takes effect.
+                </p>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-md-6 d-md-flex justify-content-end mb-3 mb-md-0 text-center">
+                        <img class="mr-3" src="images/chart4.png" width="50%">
+                    </div>
+                    <div class="col-md-6 d-md-flex justify-content-start text-center">
+                        <img src="images/chart2.png" style="width: 50%;">
+                    </div>
+                </div>
+                <p class="text-center mx-auto fw-bold mt-3"  style="color: #46717A;">
+                    Out-of Pocket Max <br> 100%
+                </p>
+            </div>
+        </div>
+        <div class="my-md-5 my-3 text-center p-md-5 p-3" style="border: 1px solid #F26827;">
+            <h3 class="display-5 text-center" style="line-break: anywhere;">HormelFoods.KnowMoreStressLess.com</h3>
+            <p class="w-md-70 text-md-center mx-auto">
+                In addition to the information in this book, you can use the online education center <span style="line-break: anywhere;">HormelFoods.KnowMoreStressLess.com</span> to learn more about your benefits or use the plan comparison calculator to ceogmisptaerer atnodd easyti musaitne gyo aunr yto tdael ovuict eo fa pocket expenses.
+            </p>
+            <div class="mx-auto mt-3" style="background-color: #F26827; color: #fff; padding: 10px 30px; border-radius: 40px; width: fit-content;">
+                <p class="mb-0" style="line-break: anywhere;">
+                    HormelFoods.KnowMoreStressLess.com
+                </p>
+            </div>
+            <div class="row mt-md-5 mt-4 text-center">
+                <div class="col-md-4">
+                    <img src="images/register.png" width="100px">
+                    <p class="fw-bold mt-3">Register today</p>
+                    <p>
+                        To learn more about your health care benefits. You’ll need your 9-digit Employee ID. It’s on your pay Stub.
+                    </p>
+                </div>
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <img src="images/learn.png" width="100px">
+                    <p class="fw-bold mt-3">Learn everything</p>
+                    <p>
+                        Take this time to learn everything you need to know about Open Enrollment and your Hormel Foods Health care benefits.
+                    </p>
+                </div>
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <img src="images/compare.png" width="100px">
+                    <p class="fw-bold mt-3">Compare plans</p>
+                    <p>
+                        Use the Plan Comparison Calculator to input your total medical and prescription expenses (include what you pay and what your insurance pays)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Muse Scripts -->
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/lodash/lodash.min.js"></script>
+    <script src="assets/vendor/highcharts/highmaps.js"></script>
+    <script src="assets/vendor/highcharts/modules/data.js"></script>
+    <script src="assets/vendor/highcharts/mapdata/countries/us/us-all.js"></script>
+    <script src="assets/vendor/plyr/dist/plyr.polyfilled.min.js"></script>
+    <script src="assets/vendor/choices-master/public/assets/scripts/choices.min.js"></script>
+    <script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/progressbar/dist/progressbar.min.js"></script>
+    <script src="assets/vendor/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="assets/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="assets/vendor/purecounterjs/dist/purecounter.js"></script>
+    <script src="assets/vendor/prism/prism.js"></script>
+    <script src="assets/js/theme-custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        containerHeight = $(".header-container").height();
+        $(".header-bg").height(containerHeight);
+        $(".header-bg").width($(window).width());
+        $(document).ready(function() {
+            if($(window).width() > 768) {
+                $("#planStructureWrapper").height($("#planStructure").height() - $("#planStructure").height()*0.1);
+                $(".traditionalPara2").height($(".traditionalPara1").height());
+                $(".traditionalPara3").height($(".traditionalPara1").height());
+                $(".chart-img2, .chart-img3").height($(".chart-img1").height());
+            } else {
+                $(".pay-row").css("margin-top", $(".min-div").height() + "px");
+            }
+        })
+    </script>
+
+</body>
+</html>

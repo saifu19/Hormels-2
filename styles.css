@@ -1,6 +1,38 @@
+body {
+    overflow-x: hidden !important;
+    color: #1E1E1E;
+}
+.header-bg {
+    background-color: #e4f0f3;
+    border-radius: 0 0 80px 80px;
+    position: absolute;
+    z-index: -1;
+}
+.header-wrapper-main {
+    width: 100%;
+}
 .header-wrapper {
-    background-color: #E3F0F3;
-    border-radius: 0 0 60px 60px;
+    display: flex;
+    justify-content: center;
+}
+/* .header {
+    max-width: 90vw !important;
+} */
+#planStructure {
+    position: relative;
+}
+#planStructureWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: #F2F5F6;
+}
+@media screen and (max-width: 768px) {
+    .header-bg {
+        border-radius: 0 0 40px 40px;
+    }
 }
 .header-links, .header-links:hover {
     color: #a5c093;
@@ -11,6 +43,9 @@
 .main-top2 {
     background-color: #46717a;
     color: white;
+}
+.main-top .col-md-8, .main-top2 .col-md-8 {
+    padding-left: 2rem;
 }
 .fs-18 {
     font-size: 18px;
@@ -51,4 +86,189 @@
 }
 .fw-bold {
     font-weight: 700 !important;
+}
+.r1 img {
+    height: 10vh;
+}
+.text-orange {
+    color: #F26827;
+}
+.orange-ul {
+    list-style-type: none;
+}
+.orange-list {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: top;
+}
+.tilted-img1 img, .tilted-img2 img {
+    width: 40vw;
+}
+.tilted-img2 img {
+    transform: translateX(-20px);
+}
+.w-md-50 {
+    width: 50%;
+}
+.w-70 {
+    width: 80%;
+}
+.h-33 {
+    height: 33.33%;
+}
+.fs-1r {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+}
+.capsule {
+    background-color: #46717A; 
+    border-radius: 40px;
+    line-height: 0 !important;
+}
+.capsule .col-md-4 {
+    border-radius: 40px;
+    padding: 5px 15%;
+}
+.b-right {
+    border-right: 2px solid #e7d8c9;
+}
+.text-md-center {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .w-md-50 {
+        width: 50% !important;
+    }
+    .w-md-70 {
+        width: 70%;
+    }
+    .fw-md-bold {
+        font-weight: bold;
+    }
+    .h-md-33 {
+        height: 33.333%;
+    }
+}
+.w-90 {
+    width: 90% !important;
+}
+.blue-cross-img {
+    width: 9rem;
+}
+.medical-div {
+    width: 100%;
+    height: 100%;
+}
+.employee-img {
+    width: 25%; 
+    position: absolute; 
+    top: 5%; 
+    right: 15%;
+}
+.piggy {
+    width: 20vw;
+}
+@media screen and (max-width: 768px) {
+    .border-right {
+        border: 0 !important;
+    }
+    .container {
+        padding: 1.5rem;
+    }
+    .r1 h3 {
+        max-width: 60vw;
+    }
+    .r1 img {
+        position: relative;
+        z-index: -1;
+        height: 15vh;
+        transform: translate(-10px, 1.2rem);
+    }
+    .r1 {
+        align-items: center;
+        display: flex;
+    }
+    .main-top .col-md-8, .main-top2 .col-md-8 {
+        padding: 0;
+        text-align: center;
+    }
+    .main-top .col-md-4, .main-top2 .col-md-4 {
+        width: 100%;
+    }
+    .main-top .col-md-8 h2, .main-top2 .col-md-8 h2 {
+        font-size: 1.5rem !important;
+    }
+    .main-top *, .main-top2 * {
+        width: 100%;
+        text-align: center;
+    }
+    .main-top *, .main-top2 * {
+        text-align: center;
+    }
+    .tilted-img1 img, .tilted-img2 img {
+        width: 112vw !important;
+        max-width: none !important;
+        transform: translateX(-20px);
+    }
+    .tilted-img2, .tilted-img1 {
+        overflow-x: hidden;
+    }
+    .maint-life2 {
+        text-align: center;
+    }
+    .w-md-50 {
+        width: 100%;
+    }
+    .text-small-center {
+        text-align: center;
+    }
+    .text-md-center {
+        text-align: left;
+    }
+    #planStructureWrapper {
+        height: 100%;
+    }
+    .plan-img {
+        width: 30vw;
+    }
+    .plan-div {
+        width: 50vw;
+    }
+    .capsule {
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .capsule .col-md-8 {
+        background-color: #46717A;
+        border-radius: 25px;
+        padding: 5px;
+        /* margin-bottom: 5px; */
+    }
+    .capsule .col-md-4 .d-flex {
+        border-radius: 25px;
+        padding: 10px;
+    }
+    small {
+        line-height: 0 !important;
+    }
+    .b-bottom {
+        border-bottom: 2px solid #e7d8c9;
+        padding: 2rem 0;
+    }
+    .b-right {
+        border-right: 0;
+    }
+    .w-md-70 {
+        width: auto;
+    }
+    .blue-cross-img {
+        width: 7rem;
+    }
+    .employee-img {
+        top: -10%;
+        right: 10%;
+    }
+    .piggy {
+        width: 80vw;
+    }
 }
