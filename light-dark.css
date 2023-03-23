@@ -1,0 +1,288 @@
+
+    :root {
+        /* Light Mode */
+        --light-header-bg: #E4F0F3;
+        --light-header-font-family: “Open Sans”, sans-serif;
+        --light-header-text-color: #46717A;
+        --light-header-btn-bg: #46717A;
+        --light-header-btn-text: #FFFFFF;
+        --light-header-overlay-bg: #F1F1F1;
+        --light-header-overlay-anchor: #46717A;
+        --light-h1-color: #002855;
+        --light-h1-font-size: calc(2vw + 4vh + 0.1vmin);
+        --light-h2-color: #46717A;
+        --light-h3-color: #000000;
+        --light-h4-color: #F26827;
+        --light-h5-color: #000;
+        --light-h6-color: #6D6E71;
+        --light-p-color: #000;
+        --light-snippet-bg-color: #FFFFFF;
+        --light-body-bg: #FFFFFF;
+        --light-body-anchor-color: #73A641;
+        --light-body-btn-bg: #002855;
+        --light-body-btn-text: #000;
+        --light-body-heading-f-family: “Open Sans”, sans-serif;
+        --light-body-subheading-f-family: “Open Sans”, sans-serif;
+        --light-footer-bg: #fff;
+        --light-footer-color: #000;
+        --light-footer-anchor-color: #000;
+        --light-footer-f-family: “Open Sans”, sans-serif;
+
+        
+        /* Alternative Dark Mode */
+        --dark-header-bg: #194F90;
+        --dark-header-font-family: “Open Sans”, sans-serif;
+        --dark-header-text-color: #FFFFFF;
+        --dark-header-btn-bg: #fff;
+        --dark-header-btn-text: #FFFFFF;
+        --dark-header-overlay-bg: #3C3C3C;
+        --dark-header-overlay-anchor: #73A641;
+        --dark-h1-color: #FFF;
+        --dark-h1-font-size: calc(2vw + 4vh + 0.1vmin);
+        --dark-h2-color: #FFF;
+        --dark-h3-color: #FFF;
+        --dark-h4-color: #1E1E1E;
+        --dark-h5-color: #FFF;
+        --dark-h6-color: #FFF;
+        --dark-p-color: #fff;
+        --dark-snippet-bg-color: #46717A;
+        --dark-body-bg: #002855;
+        --dark-body-anchor-color: #73A641;
+        --dark-body-btn-bg: #73A641;
+        --dark-body-btn-text: #FFFFFF;
+        --dark-body-heading-f-family: “Open Sans”, sans-serif;
+        --dark-body-subheading-f-family: “Open Sans”, sans-serif;
+        --dark-footer-bg: #002855;
+        --dark-footer-color: #FFFFFF;
+        --dark-footer-anchor-color: #73A641;
+        --dark-footer-f-family: “Open Sans”, sans-serif;
+
+        /* Table */
+        --table-row1-border: 2px solid #e7d8c9;
+        --table-row2-border: 2px solid #a0cbd4;
+        --r1-bg-color: #fff;
+        --r2-bg-color: #fff1e4;
+        --r3-bg-color: #fffaf4;
+        --r12-bg-color: #e4f4f8;
+        --r22-bg-color: #f0fcff;
+    }
+
+/* Header styles */
+header.light {
+    background-color: var(--light-header-bg) !important;
+    font-family: var(--light-header-font-family) !important;
+}
+
+header.light h2 {
+    color: var(--light-header-text-color) !important;
+}
+
+header.light button {
+    background-color: var(--light-header-btn-bg) !important;
+    color: var(--light-header-btn-text) !important;
+}
+
+header.light .header-overlay {
+    background-color: var(--light-header-overlay-bg) !important;
+}
+
+header.light .header-overlay a {
+    color: var(--light-header-overlay-anchor) !important;
+}
+header.light * {
+    color: var(--light-header-text-color) !important;
+}
+
+    /* Heading styles */
+.light h1, .light .h1 {
+    color: var(--light-h1-color) !important;
+    font-size: var(--light-h1-font-size) !important;
+}
+
+.light h2, .light .h2 {
+    color: var(--light-h2-color) !important;
+}
+
+.light h3, .light .h3 {
+    color: var(--light-h3-color) !important;
+}
+
+.light h4, .light .h4 {
+    color: var(--light-h4-color) !important;
+}
+
+.light h5, .light .h5 {
+    color: var(--light-h5-color) !important;
+}
+
+.light h6, .light .h6 {
+    color: var(--light-h6-color) !important;
+}
+
+/* Paragraph styles */
+.light p {
+    color: var(--light-p-color) !important;
+}
+
+    /* Snippet styles */
+.light {
+    background-color: var(--light-snippet-bg-color) !important;
+}
+
+    /* Body styles */
+.light body {
+    background-color: var(--light-body-bg) !important;
+}
+
+.light a {
+    color: var(--light-body-anchor-color) !important;
+}
+
+.light .btn {
+    background-color: var(--light-body-btn-bg) !important;
+    color: var(--light-body-btn-text) !important;
+}
+
+.light h1, .light .h1 {
+    font-family: var(--light-body-heading-f-family) !important;
+}
+
+.light h2, .light h3 {
+    font-family: var(--light-body-subheading-f-family) !important;
+}
+
+/* Footer styles */
+footer.light {
+    background-color: var(--light-footer-bg) !important;
+    color: var(--light-footer-color) !important;
+}
+footer.light *, footer.light li a {
+    color: var(--light-footer-color) !important;
+}
+
+footer.light a {
+    color: var(--light-footer-anchor-color) !important;
+}
+footer.light h1,
+footer.light h2,
+footer.light h3,
+footer.light h4,
+footer.light h5,
+footer.light h6 {
+    color: var(--light-footer-anchor-color) !important;
+} 
+
+.light .footer-text {
+    font-family: var(--light-footer-f-family) !important;
+}
+
+
+/* Header styles */
+header.dark {
+    background-color: var(--dark-header-bg) !important;
+    font-family: var(--dark-header-font-family) !important;
+}
+
+header.dark h2 {
+    color: var(--dark-header-text-color) !important;
+}
+
+header.dark button {
+    background-color: var(--dark-header-btn-bg) !important;
+    color: var(--dark-header-btn-text) !important;
+}
+
+header.dark .header-overlay {
+    background-color: var(--dark-header-overlay-bg) !important;
+}
+
+header.dark .header-overlay a {
+    color: var(--dark-header-overlay-anchor) !important;
+}
+header.dark *, header.dark .nav-link, header.dark .navbar-brand {
+    color: var(--dark-header-text-color) !important;
+}
+
+    /* Heading styles */
+.dark h1, .dark .h1 {
+    color: var(--dark-h1-color) !important;
+    font-size: var(--dark-h1-font-size) !important;
+}
+
+.dark h2, .dark .h2 {
+    color: var(--dark-h2-color) !important;
+}
+
+.dark h3, .dark .h3 {
+    color: var(--dark-h3-color) !important;
+}
+
+.dark h4, .dark .h4 {
+    color: var(--dark-h4-color) !important;
+}
+
+.dark h5, .dark .h5 {
+    color: var(--dark-h5-color) !important;
+}
+
+.dark h6, .dark .h6 {
+    color: var(--dark-h6-color) !important;
+}
+
+/* Paragraph styles */
+.dark p {
+    color: var(--dark-p-color) !important;
+}
+
+    /* Snippet styles */
+section.dark {
+    background-color: var(--dark-snippet-bg-color) !important;
+    color: var(--dark-p-color) !important;
+}
+
+    /* Body styles */
+.dark body {
+    background-color: var(--dark-body-bg) !important;
+}
+
+.dark a {
+    color: var(--dark-body-anchor-color) !important;
+}
+
+.dark .btn {
+    background-color: var(--dark-body-btn-bg) !important;
+    color: var(--dark-body-btn-text) !important;
+}
+
+.dark h1 {
+    font-family: var(--dark-body-heading-f-family) !important;
+}
+
+.dark h2, h3 {
+    font-family: var(--dark-body-subheading-f-family) !important;
+}
+
+/* Footer styles */
+footer.dark {
+    background-color: var(--dark-footer-bg) !important;
+    color: var(--dark-footer-color) !important;
+}
+footer.dark *, footer.dark li a {
+    color: var(--dark-footer-color) !important;
+}
+
+footer.dark a {
+    color: var(--dark-footer-anchor-color) !important;
+}
+footer.dark h1,
+footer.dark h2,
+footer.dark h3,
+footer.dark h4,
+footer.dark h5,
+footer.dark h6 {
+    color: var(--dark-footer-anchor-color) !important;
+} 
+
+.dark .footer-text {
+    font-family: var(--dark-footer-f-family) !important;
+}

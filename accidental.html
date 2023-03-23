@@ -18,22 +18,22 @@
 <link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="styles.css" rel="stylesheet">
+<link href="light-dark.css" rel="stylesheet">
 
 <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=shaikxp3lshncb0ptavfkw" async="true"></script>
 </head>
 <body>
-    <div class="text-center header-container">
-        <div class="header-bg"></div>
+    <header class="text-center header-container light">
         <div class="header-wrapper">
             <div class="header container py-5">
                 <img src="images/hormel-logo.png" style="width: 120px;">
                 <h2 class="display-3 mt-3" style="color: #46717a;">Accidental Death & Dismemberment</h2>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="container main mt-5">
-        <div>
+    <section class="container main mt-5">
+        <section class="">
             <div class="row g-0 align-items-center main-top2 py-3">
                 <div class="col-md-8">
                     <h2 class="display-6 text-light">Accidental Death & Dismemberment</h2>
@@ -43,8 +43,8 @@
                     <img src="images/sofa.PNG" style="height: 250px">
                 </div>
             </div>
-        </div>
-        <div class="main-table">
+        </section>
+        <section class="main-table">
             <div class="row g-0 table-row2 d-none d-md-flex">
                 <div class="col-md-3 table-col r-12">
                     <h4 class="display-7">Basic</h4>
@@ -91,8 +91,8 @@
                     <p>No evidence of insurability is required.</p>
                 </div>
             </div>
-        </div>
-        <div class="footer my-5">
+        </section>
+        <footer class="footer my-5 light">
             <div class="row align-items-center">
                 <div class="col-md-3 text-center">
                     <img src="images/horizon.png" class="img-fluid">
@@ -107,8 +107,8 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
+    </section>
 
     <!-- Muse Scripts -->
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -127,11 +127,6 @@
     <script src="assets/vendor/prism/prism.js"></script>
     <script src="assets/js/theme-custom.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script>
-        containerHeight = $(".header-container").height();
-        $(".header-bg").height(containerHeight);
-        $(".header-bg").width($(window).width());
-    </script>
 
 </body>
 </html>

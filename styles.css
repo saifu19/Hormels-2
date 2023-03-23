@@ -2,11 +2,9 @@ body {
     overflow-x: hidden !important;
     color: #1E1E1E;
 }
-.header-bg {
-    background-color: #e4f0f3;
+header {
+    /* background-color: #e4f0f3; */
     border-radius: 0 0 80px 80px;
-    position: absolute;
-    z-index: -1;
 }
 .header-wrapper-main {
     width: 100%;
@@ -30,7 +28,7 @@ body {
     background-color: #F2F5F6;
 }
 @media screen and (max-width: 768px) {
-    .header-bg {
+    header {
         border-radius: 0 0 40px 40px;
     }
 }
@@ -50,20 +48,33 @@ body {
 .fs-18 {
     font-size: 18px;
 }
+
+/* :root {
+    --table-row1-border: 2px solid #e7d8c9;
+    --table-row2-border: 2px solid #a0cbd4;
+    --r1-bg-color: #fff;
+    --r2-bg-color: #fff1e4;
+    --r3-bg-color: #fffaf4;
+    --r12-bg-color: #e4f4f8;
+    --r22-bg-color: #f0fcff;
+} */
 .table-row {
-    border-bottom: 2px solid #e7d8c9;
+    border-bottom: var(--table-row1-border);
 }
 .table-row2 {
-    border-bottom: 2px solid #a0cbd4;
+    border-bottom: var(--table-row2-border);
 }
 .table-col {
     padding: 1rem;
 }
+.r1 {
+    background-color: var(--r1-bg-color);
+}
 .r2 {
-    background-color: #fff1e4;
+    background-color: var(--r2-bg-color);
 }
 .r3 {
-    background-color: #fffaf4;
+    background-color: var(--r3-bg-color);
     padding-right: 3rem;
 }
 .fs-14 {
@@ -79,10 +90,10 @@ body {
     padding-bottom: 3rem !important;
 }
 .r-12 {
-    background-color: #e4f4f8;
+    background-color: var(--r12-bg-color);
 }
 .r-22 {
-    background-color: #f0fcff;
+    background-color: var(--r22-bg-color);
 }
 .fw-bold {
     font-weight: 700 !important;

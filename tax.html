@@ -18,32 +18,32 @@
 <link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="styles.css" rel="stylesheet">
+<link href="light-dark.css" rel="stylesheet">
 
 <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=shaikxp3lshncb0ptavfkw" async="true"></script>
 </head>
 <body>
-    <div class="text-center header-container">
-        <div class="header-bg"></div>
+    <header class="text-center header-container light">
         <div class="header-wrapper w-100 d-flex justify-content-center">
             <div class="header container py-5">
                 <img src="images/hormel-logo.png" style="width: 120px;">
                 <h2 class="display-3 mt-3" style="color: #46717a;">Tax-Advantaged Accounts</h2>
             </div>
         </div>
-    </div>
+    </header>
 
     <div class="container mt-md-5">
 
         <!-- Header -->
-        <div>
+        <section class="light">
             <p>
                 It is an account with tax-saving benefits. You put money in pre-tax, and don't have to pay taxes on the money coming out either. Examples of a tax-advantaged account are the Health Savings Account (HSA) or the Flexible Spending Account (FSA).
             </p>
-        </div>
+        </section>
 
         <!-- Blue & Yellow -->
-        <div class="row align-items-strech mt-md-5 mt-3 gy-3">
-            <h3 class="display-7 text-small-center" style="color: #46717A;">HSA & FSA advantages</h3>
+        <section class="row align-items-strech mt-md-5 mt-3 gy-3 light">
+            <h2 class="display-7 text-small-center" style="color: #46717A;">HSA & FSA advantages</h2>
             <div class="col-md-6">
                 <div class="medical-div p-md-5 p-3" style="background-color: #F0FCFF;">
                     <h3 class="display-8">Tax Advantages</h3>
@@ -76,7 +76,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Why enroll? -->
         <h3 class="display-5 my-5 text-small-center" style="color: #46717A;">Why enroll?</h3>
@@ -282,8 +282,8 @@
         </div>
 
         <!-- HSA -->
-        <div class="mt-5">
-            <h3 class="display-5 text-center" style="color: #46717A;">Health Savings account</h3>
+        <section class="mt-5 light">
+            <h2 class="display-5 text-center">Health Savings account</h2>
             <h3 class="display-8 mt-5">A Health Savings Account (HSA) is like a 401(k) for health care.</h3>
             <p>
                 An HSA is available if you enroll in the Healthy Savings Plan Medical Option. HSAs are tax-advantaged accounts that accumulate interest and can earn investment returns. The funds can be used to pay for qualified medical expenses today or can be saved for future expenses. Contributions will begin on the first earned paycheck that includes the first of the month following eligibility for the health care plans.
@@ -314,10 +314,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- HSA Text -->
-        <div class="mt-md-5 mt-3">
+        <section class="mt-md-5 mt-3 light">
             <h3 class="display-8">HSA Eligibility</h3>
             <p>
                 The IRS requires you to be enrolled in a qualified high deductible health care plan to be eligible to contribute to a health savings account. There are still situations that may make you ineligible regardless of being enrolled in a qualifying health care plan. 
@@ -333,15 +333,15 @@
                     You can be claimed as a tax dependent on another person’s taxes. Generally, this excludes children under age 19 (or age 24 for students), or other household members with limited income who are supported by the taxpayer.
                 </li>
             </ul>
-        </div>
+        </section>
 
         <!-- Tax Advantaged Accounts -->
-        <div class="mt-5">
-            <h3 class="display-5 text-center" style="color: #46717A;">
+        <section class="mt-5 light">
+            <h2 class="display-5 text-center" style="color: #46717A;">
                 Tax advantaged accounts
-            </h3>
+            </h2>
             <div class="mb-5">
-                <h3 class="text-orange mt-5 display-8">Health Care Flexible Spending Account</h3>
+                <h4 class="text-orange mt-5 display-8">Health Care Flexible Spending Account</h4>
                 <p>You can make contributions to the health care flexible spending account if you are enrolled in the Traditional Plan or waived healthcare. </p>
                 <ul>
                     <li>The contribution limit for the health care flexible spending account (FSA) for 2023 is $2,850. </li>
@@ -351,13 +351,13 @@
                 </ul>
             </div>
             <div class="mb-5">
-                <h3 class="text-orange display-8">Dependant Care Flexible Spending Account</h3>
+                <h4 class="text-orange display-8">Dependant Care Flexible Spending Account</h4>
                 <p>
                     The contribution limit for the dependent care flexible spending account is $5,000. This account does not allow for a rollover of any funds. The deadline to complete 2022 claims is March 1, 2023. All remaining balances will be forfeited.
                 </p>
             </div>
             <div class="mb-5">
-                <h3 class="text-orange display-8">Limited Purpose Flexible Spending Account</h3>
+                <h4 class="text-orange display-8">Limited Purpose Flexible Spending Account</h4>
                 <p class="mb-1">
                     You can make contributions to the limited purpose flexible spending account (LPFSA) if you are enrolled in the Healthy Savings Plan only. This account is for dental and vision expenses only.
                 </p>
@@ -376,7 +376,7 @@
                     <li>By electing the LPFSA, remaining funds in your 2022 healthcare FSA would rollover into the 2023 LPFSA</li>
                 </ul>
             </div>
-        </div>
+        </section>
     </div>
 
     <!-- Muse Scripts -->
@@ -397,9 +397,6 @@
     <script src="assets/js/theme-custom.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script>
-        containerHeight = $(".header-container").height();
-        $(".header-bg").height(containerHeight);
-        $(".header-bg").width($(window).width());
         $(document).ready(function() {
             if($(window).width() > 768) {
                 $("#planStructureWrapper").height($("#planStructure").height() - $("#planStructure").height()*0.1);
